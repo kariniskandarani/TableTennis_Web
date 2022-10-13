@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "roboto";
+  src: url("./Fonts/Roboto/Roboto-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+}
+
+/* header, nav bar, */
+header {
+  background-color: #1f2937;
+}
+
+#logo {
+  float: left;
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 8px;
+  padding-left: 260px;
+}
+header nav {
+  font: 18px;
+  padding-right: 70px;
+}
+.header-links {
+  float: right;
+}
+
+.header-links li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.header-links li a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+/* section1 */
+
+.sec-1 summary h2 {
+  font: 48px bolder;
+  color: #f9faf8;
+  padding: 100px 100px 10px 170px;
+}
+
+.sec-1 summary p {
+  font: 18px;
+  color: #e5e7eb;
+  padding: 5px 5px 5px 170px;
+}
+
+.sec-1 summary button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 5px 5px 5px 170px;
+}
+
+.sec-1 {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+aside {
+  margin-right: 130px;
+}
+
+aside img {
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+/* secttion2 */
+.sec-2 h3 {
+  text-align: center;
+  padding: 40px 0px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.sec-2 menu {
+  display: flex;
+  margin-left: 300px;
+  padding: 40px;
+}
+
+.sec-2 menu figure {
+  padding-right: 40px;
+  justify-content: space-around;
+}
+
+.box1 {
+  margin-left: 10px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.box1 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.sec-2 menu figure figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: #1f2937;
+  padding-top: 5px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 60px;
+  padding-left: 310px;
+  margin-top: 50px;
+}
+
+summary blockquote {
+  display: flex;
+}
+
+summary blockquote em {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+}
+.quote blockquote cite {
+  text-align: end;
+  margin-left: 200px;
+}
+
+/* last Section */
+
+.last-sec {
+  /* text-align: left; */
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  width: 830px;
+  padding:15px ;
+  margin-top: 50px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.last-sec summary {
+  padding: 10px 20px;
+  width: max-content;
+}
+.last-sec aside button {
+  border: #f9faf8 7px;
+  width: max-content;
+  padding: 10px 50px;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+/* footer */
+.footer{
+ text-align: center;
+ background-color: #1f2937;
+ color: #e5e7eb;
+ padding: 30px;
+ margin-top: 30px;
+}
